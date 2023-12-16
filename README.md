@@ -1,13 +1,13 @@
-# Repo Miui Camera
+# Repo Miui Camera Leica
 
-Miuu Camera for Redmi Note 10 5G (camellia)
+Miui Camera for Redmi Note 10 5G (camellia)
 
 ### Cloning :
-- Clone this repo in vendor_MiuiCameraLeica in your working directory by :
+- Clone this repo in `vendor_xiaomi_camellia-miuicamera` in your working directory by :
 ```
 git clone https://github.com/ramshell688/vendor_xiaomi_camellia-miuicamera vendor/xiaomi/camellia-miuicamera
 ```
-Make these changes in **device.mk**
+Make these changes in `device.mk`
 ```
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/xiaomi/camellia-miuicamera/config.mk)
